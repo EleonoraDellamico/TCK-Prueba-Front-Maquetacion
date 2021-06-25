@@ -1,0 +1,31 @@
+{
+	"title": "HOTEL Mieres del Camín Apartamentos",
+	"items": [
+		{
+			"header": "text",
+			"list_item": [ "texto 1", "texto 2" ],
+			"button_tittle": "buton tittle"
+		},
+		{
+			"header": "text11",
+			"list_item": [ "texto 11", "texto 11" ],
+			"button_tittle": "buton tittle11"
+		},
+		{
+			"header": "22",
+			"list_item": [ "texto 22", "texto 2" ],
+			"button_tittle": "buton tittle22"
+		},
+		{
+			"header": "22",
+			"list_item": [ "texto 22", "texto 2" ],
+			"button_tittle": "buton tittle22"
+		},
+		{
+			"header": "22",
+			"list_item": [ "texto 22", "texto 2" ],
+			"button_tittle": "buton tittle22"
+		}
+	],
+	"servicios": "assets/cpys/tab2/servicios1.json"
+}

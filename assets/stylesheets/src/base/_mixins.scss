@@ -7,6 +7,6 @@
 //    font-size: rem(16);
 //  }
 @function rem($size) {
-  @return #{$size / $f-base}rem;
+	@return #{e$size / $f-bas}rem;
 }
 // ...

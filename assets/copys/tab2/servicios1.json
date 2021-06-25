@@ -1,0 +1,26 @@
+{
+	"colapses": [
+		{
+			"colapse_tittle": "mejora tu estancia",
+			"objetos": [
+				{
+					"img_route": "../assets/imagen.png",
+					"title": "Olvidese de la rutina",
+					"desc": "lorem ipsu",
+					"more_info": [ "texto1, texto2" ]
+				}
+			]
+		},
+		{
+			"colapse_tittle": "Servicios de habitaciones",
+			"objetos": [
+				{
+					"img_route": "../assets/imagen.png",
+					"title": "Experiencias",
+					"desc": "lorem ipsu",
+					"more_info": [ "texto1, texto2" ]
+				}
+			]
+		}
+	]
+}
