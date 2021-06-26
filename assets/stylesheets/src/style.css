@@ -149,7 +149,7 @@ hr {
 	justify-content: space-around;
 	padding: 39px 5px 5px 0px;
 }
-.drop-down {
+.image-drop-down {
 	width: 19px;
 	height: 19px;
 }
@@ -169,12 +169,32 @@ hr {
 	line-height: 20px;
 	color: var(--color--text);
 }
+#services__dropDown__info {
+	margin: 8px;
+	border: 1px solid rgba(97, 100, 105, 0.2);
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
+}
+.article__services__hotel {
+	text-align: justify;
+	margin-top: 30px;
+}
 .services__image {
 	width: 268px;
 	height: 180px;
 }
-.services__container__image {
+.services__dropDown__image {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.text {
+	font-family: var(--font--title--card);
+	color: var(--color--text);
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+.link__moreInformation {
 }

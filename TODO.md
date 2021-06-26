@@ -12,8 +12,8 @@
 [X] spike webpack 1h 
 * https://www.youtube.com/watch?v=ansUGkcrhwY&t=2465s&ab_channel=midudev
 * https://github.com/webpack/webpack#install
-[] maquetar mobile 360px
-[] spike 10min import js
+[X] maquetar mobile 360px
+[X] spike 10min import js
 * https://css-tricks.com/getting-javascript-to-talk-to-css-and-sass/
 [] web dinamica
 
