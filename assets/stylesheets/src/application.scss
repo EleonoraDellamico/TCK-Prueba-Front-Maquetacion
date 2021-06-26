@@ -135,18 +135,21 @@ hr {
 /*TAB2*/
 #section__services {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	background-color: var(--color--background2);
+	height: fit-content;
+	padding: 20px;
 }
-#service__options {
+#section__mejor__estancia,
+#section__servicio-habitación {
 	background-color: var(--color--background);
 	width: 100%;
-	height: 91vh;
 	position: relative;
 }
 .service__website {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0px;
 }
 .services__container__title {
 	display: flex;
@@ -157,8 +160,8 @@ hr {
 	padding: 39px 5px 5px 0px;
 }
 .image-drop-down {
-	width: 19px;
-	height: 19px;
+	width: 16px;
+	height: 8px;
 }
 .service__title {
 	color: var(--color--secondary);
@@ -176,22 +179,28 @@ hr {
 	line-height: 20px;
 	color: var(--color--text);
 }
-#services__dropDown__info {
-	margin: 8px;
+/*DESPLEGABLE MEJORA TU ESTANCIA */
+.container__dropDown__info {
 	border: 1px solid rgba(97, 100, 105, 0.2);
 	padding: 12px;
 	display: flex;
 	flex-direction: column;
-}
-.article__services__hotel {
-	text-align: justify;
-	margin-top: 30px;
+	background-color: var(--color--background);
+	// display: none;
 }
 .services__image {
 	width: 268px;
 	height: 180px;
 }
-.services__dropDown__image {
+.article__services__title {
+	margin-bottom: 10px;
+}
+.article__services__hotel {
+	text-align: justify;
+	margin-top: 30px;
+}
+
+.container__dropDown__image {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -204,4 +213,54 @@ hr {
 	text-align: justify;
 }
 .link__moreInformation {
+	font-family: var(--font--title--service);
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--color--secondary);
+	margin-top: 20px;
+}
+#container__moreDetails {
+	margin-top: 20px;
+	// display: none;
+}
+#promotions {
+	margin-top: 20px;
+}
+
+#section__servicio-habitación {
+	margin-top: 50px;
+}
+@media only screen and (min-width: 768px) {
+	#tabs {
+		display: flex;
+	}
+	.tabs__container__button {
+		width: 12%;
+	}
+	.services__container__title {
+		width: 46vw;
+		height: 10vh;
+	}
+	.container__article {
+		display: flex;
+	}
+	.article__services__title {
+		text-align: start;
+	}
+	.article__services__hotel {
+		text-align: justify;
+		padding: 20px;
+		margin-top: 0;
+	}
+	#section__details__dropDown {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		column-gap: 10px;
+		padding: 30px;
+	}
+	.details {
+		padding: 0px 41px;
+	}
 }
