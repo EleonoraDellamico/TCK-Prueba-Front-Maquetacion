@@ -3,3 +3,124 @@
 /* bloques */
 
 /* modulos */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color--background2: #fafafa;
+	--color--background: #ffffff;
+	--color--principal: #003970;
+	--color--btn--option--active: #033970;
+	--color--secondary: #0c75c5;
+	--height--header: 42px;
+	--color--border--card: #326c96;
+	--font--title--card: 'Roboto', sans-serif;
+}
+#section__tabs {
+	padding: 0 20px 0 20px;
+	height: 100vh;
+	background-color: var(--color--background2);
+}
+/*SECTION HEADER*/
+header {
+	background-color: var(--color--background);
+	width: 100%;
+	height: var(--height--header);
+	display: flex;
+	justify-content: flex-end;
+	display: none;
+}
+.tabs__container__button {
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+button {
+	/* display: none; */
+	background-color: transparent;
+	border: none;
+}
+.tabs__button--active {
+	color: var(--color--principal);
+}
+
+.tabs__button--disable {
+	color: var(---color--secondary);
+}
+
+/* Title Hotel*/
+#main {
+	padding-top: 40px;
+}
+.main__title,
+span {
+	color: var(--color--principal);
+}
+.main__container__title {
+	text-align: center;
+}
+.main__title {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	text-transform: capitalize;
+}
+span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+}
+.rating {
+	margin-left: 10px;
+}
+/*CARD*/
+.card__container {
+	background-color: var(--color--background);
+	display: flex;
+	flex-direction: column;
+	height: 60vh;
+	align-items: center;
+	padding: 24px;
+	margin-top: 40px;
+	border: 1px solid var(--color--border--card);
+	box-sizing: border-box;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.card__title {
+	color: var(--color--principal);
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: var(--font--title--card);
+}
+.card__list {
+	color: var(--color--principal);
+	font-size: 16px;
+	line-height: 16px;
+	font-family: var(--font--title--card);
+}
+.label__card__button {
+	color: var(--color--btn--option--active);
+}
+.card__button {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid var(--color--border--card);
+}
+#option {
+	color: red;
+}
+hr {
+	color: var(--color--principal);
+	margin-top: 23px;
+	margin-bottom: 18px;
+}

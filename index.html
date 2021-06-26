@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Eleonora</title>
-</head>
-<body>
-    <header id="tabs"></header>
-    <main id="main"></main>
 
-    <script src="assets/javascripts/application.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/stylesheets/src/style.css">
+        <!--Roboto slab regular-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <!--Roboto slab Bold-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+        <!--ROBOTO bold-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <title>Eleonora</title>
+    </head>
+
+    <body>
+        <!--Section TAB1-->
+        <section id="section__tabs">
+            <header id="tabs">
+                <div class="tabs__container__button">
+                    <button class="tabs__button--active">Tab 1</button>
+                    <button class="tabs__button--disable"> Tab 2</button>
+                </div>
+            </header>
+            <main id="main">
+                <div class="main__container__title">
+                    <h1 class="main__title">HOTEL </h1><span>Mieres del Camín Apartamentos
+                        <img class="rating" src="./assets/images/Valoración.png" alt="Valoración"></span>
+                </div>
+                <div class="card__container">
+                    <div class="card__info">
+                        <h6 class="card__title">Solo Alojamiento</h6>
+                          <hr/>
+                        <ul>
+                            <li class="card__list">Sin régimen</li>
+                            <li class="card__list">Botella de agua de bienvenida</li>
+                        </ul>
+                    </div>
+                    <form class="card__button">
+                        <input type="radio" id="option" name="option">
+                        <label for="option" class="label__card__button--active"> Elegir régimen</label>
+                    </form>
+
+                </div>
+            </main>
+        </section>
+        <script type="module" src="assets/javascripts/application.js"></script>
+    </body>
+
 </html>
