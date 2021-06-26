@@ -5,7 +5,7 @@
 #### viernes:
 [x] spike entender el proyecto 
 [x] crear json para que sea escalable y dinamico
-[] plantear los diseños de mobile
+[X] plantear los diseños de mobile
 -[] plantear los diseños de tablet
 
 #### sabado por la mañana
