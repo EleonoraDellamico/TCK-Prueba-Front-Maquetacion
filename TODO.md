@@ -19,17 +19,18 @@
 
 #### sabado por la tardes ### Tab2
 [X] spike sass/scss
-[] maquetar mobile 360px
+[X] maquetar mobile 360px
+[X] maquetar desktop 1200px
+[X] maquetar tablet 768px
 [] web dinamica
 
 
-#### domingo por la mañana ### Tab2
+#### domingo por la mañana ### Tab1
+[] maquetar desktop 768px
 [] maquetar desktop 1200px
-[] web dinamica
--[] maquetar tablet 768px
--[] web dinamica
+
 
 #### domingo por la tarde ### Tab1
-[] maquetar desktop 1200px
+[] insertar Javascript
 [] web dinamica
 
