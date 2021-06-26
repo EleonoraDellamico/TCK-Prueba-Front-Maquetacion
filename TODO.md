@@ -17,7 +17,7 @@
 * https://css-tricks.com/getting-javascript-to-talk-to-css-and-sass/
 [] web dinamica
 
-#### sabado por la tarde
+#### sabado por la tardes
 [] spike sass/scss
 [] maquetar desktop 1200px
 [] web dinamica
