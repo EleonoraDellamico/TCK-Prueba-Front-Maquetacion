@@ -264,3 +264,24 @@ hr {
 		padding: 0px 41px;
 	}
 }
+@media only screen and (min-width: 1280px) {
+	.article__services__hotel {
+		padding: 25px 268px 66px 32px;
+	}
+	#section__details__dropDown {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		column-gap: 43px;
+	}
+	.services__container__title {
+		width: 30vw;
+		height: 14vh;
+	}
+	#section__servicio-habitación {
+		margin-top: 50px;
+		margin-bottom: 119px;
+	}
+	.container__dropDown__info {
+		margin-bottom: 32px;
+	}
+}
