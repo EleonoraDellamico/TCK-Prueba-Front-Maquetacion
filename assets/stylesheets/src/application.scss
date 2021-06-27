@@ -176,7 +176,8 @@ ul > li.card__list {
 	display: flex;
 	width: 100%;
 	justify-content: flex-end;
-	padding: 20px;
+	padding: 8px;
+	right: 13px;
 	position: fixed;
 	top: 0;
 	z-index: 999;
@@ -199,7 +200,7 @@ ul > li.card__list {
 	padding: 20px;
 }
 #section__mejor__estancia,
-#section__servicio-habitación {
+#section__roomService {
 	background-color: var(--color--background);
 	width: 100%;
 	position: relative;
@@ -277,7 +278,7 @@ ul > li.card__list {
 	text-align: justify;
 }
 .show {
-	display: block;
+	display: flex;
 }
 
 .link__moreInformation {
@@ -290,6 +291,9 @@ ul > li.card__list {
 	margin-top: 20px;
 	cursor: pointer;
 }
+.display {
+	display: block;
+}
 #container__moreDetails {
 	margin-top: 20px;
 	display: none;
@@ -298,7 +302,7 @@ ul > li.card__list {
 	margin-top: 20px;
 }
 
-#section__servicio-habitación {
+#section__roomService {
 	margin-top: 50px;
 }
 /*!*****************************************************!*\
