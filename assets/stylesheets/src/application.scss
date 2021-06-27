@@ -36,7 +36,7 @@
 	background-color: var(--color--background2);
 }
 /*SECTION HEADER TAB 1*/
-header {
+#tabs {
 	background-color: var(--color--background);
 	width: 100%;
 	height: var(--height--header);
@@ -73,8 +73,12 @@ a {
 .main__title__hotel,
 span {
 	color: var(--color--principal);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
 }
-.main__container__title {
+#hotel__items {
 	text-align: center;
 }
 .main__title__hotel {
@@ -85,12 +89,7 @@ span {
 	line-height: 30px;
 	text-transform: capitalize;
 }
-span {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-weight: 700;
-}
+
 .main__title__hotel__rating {
 	margin-left: 10px;
 }
