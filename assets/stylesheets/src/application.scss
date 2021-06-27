@@ -19,6 +19,7 @@
 :root {
 	--color--background2: #fafafa;
 	--color--background: #ffffff;
+	--color--gray: #f2f2f2;
 	--color--principal: #003970;
 	--color--text: #4e5055;
 	--color--btn--option--active: #033970;
@@ -49,14 +50,18 @@ header {
 	justify-content: space-around;
 }
 button {
-	/* display: none; */
 	background-color: transparent;
 	border: none;
+	cursor: pointer;
+	color: var(--color--principal);
 }
+a {
+	text-decoration: none;
+}
+
 .tabs__button--active {
 	color: var(--color--principal);
 }
-
 .tabs__button--disable {
 	color: var(---color--secondary);
 }
@@ -116,6 +121,9 @@ hr {
 	margin-top: 23px;
 	margin-bottom: 18px;
 }
+ul {
+	padding: 20px;
+}
 
 ul > li.card__list {
 	color: var(--color--principal);
@@ -130,12 +138,10 @@ ul > li.card__list {
 	border: 1px solid var(--color--border--card);
 	transition: ease-in 0.3s;
 	cursor: pointer;
-}
-.card__form:hover {
-	background-color: #6dc13841;
+	background-color: var(--color--gray);
 }
 
-.card__label__button--active {
+.card__label__button {
 	cursor: pointer;
 	color: var(--color--btn--option--active);
 }
@@ -162,6 +168,9 @@ ul > li.card__list {
 }
 /*!*****************************************************!*\
 /*!*****************************************************!*\
+
+
+
 /* STYLE TAB2*/
 .nav__bar__mobile {
 	display: flex;
@@ -209,7 +218,7 @@ ul > li.card__list {
 	justify-content: space-around;
 	padding: 39px 5px 5px 0px;
 }
-.image-drop-down {
+.services__container__title > img {
 	width: 16px;
 	height: 8px;
 	cursor: pointer;
@@ -241,6 +250,7 @@ ul > li.card__list {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--color--background);
+	display: none;
 }
 .services__image {
 	width: 268px;
@@ -266,6 +276,9 @@ ul > li.card__list {
 	line-height: 20px;
 	text-align: justify;
 }
+.show {
+	display: block;
+}
 
 .link__moreInformation {
 	font-family: var(--font--title--service);
@@ -275,6 +288,7 @@ ul > li.card__list {
 	line-height: 20px;
 	color: var(--color--secondary);
 	margin-top: 20px;
+	cursor: pointer;
 }
 #container__moreDetails {
 	margin-top: 20px;

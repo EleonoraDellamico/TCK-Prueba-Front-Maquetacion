@@ -21,8 +21,8 @@
         <section id="section__services">
             <header id="tabs">
                 <div class="tabs__container__button">
-                    <button class="tabs__button--active">Tab 1</button>
-                    <button class="tabs__button--disable"> Tab 2</button>
+                    <button class="tabs__button"><a href="./index.html">Tab 1</a></button>
+                    <button class="tabs__button"> Tab 2</button>
                 </div>
             </header>
             <nav class="nav__bar__mobile">
@@ -33,7 +33,8 @@
             <section class="drop-down" id="section__mejor__estancia">
                 <img class="service__website" src="./assets/images/exclusiveHotel.com.png" alt="Web site luxury Hotel">
                 <div class="services__container__title">
-                    <button class="services__btn__dropDown"><img class="image-drop-down" src="./assets/images/drop-down.png" alt="Drop-down" ></button>
+                    <button onClick="Toggle()" class="services__btn__dropDown"><img class="image-drop-down"
+                            src="./assets/images/drop-down.png" alt="Drop-down"></button>
                     <h1 class="service__title">Mejora tu estancia</h1>
                     <p class="optional">Opcional</p>
                 </div>
@@ -55,7 +56,6 @@
                             </link>
                         </p>
                     </article>
-
                 </div>
                 <!--DROPDOWN FIRST CARD-->
                 <section id="container__moreDetails">
@@ -112,8 +112,8 @@
                             todas sus formas. Un mundo mágico de posibilidades, más allá de la terapia y del que ahora
                             usted, también podrá disfrutar.</text>
                         <p class="link__moreInformation">
-                            <link>Más información y condiciones <img src="./assets/images/drop-down.png"
-                                alt="drop-down">
+                            <link class="link__moreInformation">Más información y condiciones <img
+                                src="./assets/images/drop-down.png" alt="drop-down">
                             </link>
                         </p>
                     </article>
