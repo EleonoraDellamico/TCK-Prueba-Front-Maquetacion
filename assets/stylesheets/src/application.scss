@@ -31,10 +31,10 @@
 #section__tabs,
 #section__services {
 	padding: 0 20px 0 20px;
-	height: 100vh;
+	height: fit-content;
 	background-color: var(--color--background2);
 }
-/*SECTION HEADER*/
+/*SECTION HEADER TAB 1*/
 header {
 	background-color: var(--color--background);
 	width: 100%;
@@ -61,8 +61,8 @@ button {
 	color: var(---color--secondary);
 }
 
-/* Title Hotel*/
-#main {
+/* TITLE HOTEL TAB 1*/
+#container__general__card {
 	padding-top: 40px;
 }
 .main__title__hotel,
@@ -89,20 +89,19 @@ span {
 .main__title__hotel__rating {
 	margin-left: 10px;
 }
-/*CARD*/
+/*CARD HOTEL TAB1*/
 .card__container {
 	background-color: var(--color--background);
 	display: flex;
 	flex-direction: column;
-	height: 60vh;
+	justify-content: space-between;
+	height: 70vh;
 	align-items: center;
 	padding: 24px;
 	margin-top: 40px;
 	border: 1px solid var(--color--border--card);
 	box-sizing: border-box;
 	border-radius: 2px;
-	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 }
 .card__title {
@@ -117,12 +116,14 @@ hr {
 	margin-top: 23px;
 	margin-bottom: 18px;
 }
-.card__list {
+
+ul > li.card__list {
 	color: var(--color--principal);
 	font-size: 16px;
-	line-height: 16px;
+	line-height: 24px;
 	font-family: var(--font--title--card);
 }
+
 .card__form {
 	width: 100%;
 	padding: 15px;
@@ -131,8 +132,29 @@ hr {
 .card__label__button--active {
 	color: var(--color--btn--option--active);
 }
-
-/*TAB2*/
+/*!*****************************************************!*\
+/*!*****************************************************!*\
+/*MEDIA QUERIES TAB1*/
+@media screen and (min-width: 768px) {
+	#container__general__card {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		column-gap: 10px;
+	}
+	.card__container {
+		height: 72vh;
+	}
+}
+@media screen and (min-width: 1280px) {
+	#container__general__card {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		column-gap: 20px;
+	}
+}
+/*!*****************************************************!*\
+/*!*****************************************************!*\
+/* STYLE TAB2*/
 .nav__bar__mobile {
 	display: flex;
 	width: 100%;
@@ -198,6 +220,7 @@ hr {
 	line-height: 20px;
 	color: var(--color--text);
 }
+/*!*****************************************************!*\
 /*DESPLEGABLE MEJORA TU ESTANCIA */
 .container__dropDown__info {
 	border: 1px solid rgba(97, 100, 105, 0.2);
@@ -251,6 +274,9 @@ hr {
 #section__servicio-habitación {
 	margin-top: 50px;
 }
+/*!*****************************************************!*\
+/*!*****************************************************!*\
+/*MEDIA QUERIES TAB2*/
 @media only screen and (min-width: 768px) {
 	.nav__bar__mobile {
 		display: none;
@@ -300,7 +326,7 @@ hr {
 	}
 	.services__container__title {
 		width: 30vw;
-		height: 14vh;
+		height: 8vh;
 	}
 	#section__servicio-habitación {
 		margin-top: 50px;
