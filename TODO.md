@@ -5,7 +5,7 @@
 [x] spike entender el proyecto 
 [x] crear json para que sea escalable y dinamico
 [X] plantear los diseños de mobile
--[] plantear los diseños de tablet
+[X] plantear los diseños de tablet
 
 #### sabado por la mañana ### Tab1
 [X] spike webpack 1h 
@@ -14,23 +14,24 @@
 [X] maquetar mobile 360px
 [X] spike 10min import js
 * https://css-tricks.com/getting-javascript-to-talk-to-css-and-sass/
-[] web dinamica
+-[] web dinamica
 
 
 #### sabado por la tardes ### Tab2
 [X] spike sass/scss
 [X] maquetar mobile 360px
-[X] maquetar desktop 1200px
 [X] maquetar tablet 768px
-[] web dinamica
+[X] maquetar desktop 1200px
+-[] web dinamica
 
 
 #### domingo por la mañana ### Tab1
-[] maquetar desktop 768px
-[] maquetar desktop 1200px
+[X] maquetar desktop 768px
+[X] maquetar desktop 1200px
+[] insertar Javascript
+[] animaciones
 
 
 #### domingo por la tarde ### Tab1
-[] insertar Javascript
-[] web dinamica
+-[] web dinamica
 
