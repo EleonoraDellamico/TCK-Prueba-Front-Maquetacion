@@ -44,7 +44,7 @@ header {
 	justify-content: flex-end;
 	display: none;
 }
-.tabs__container__button {
+#tabs__container__button {
 	width: 30%;
 	display: flex;
 	justify-content: space-around;
@@ -67,7 +67,7 @@ a {
 }
 
 /* TITLE HOTEL TAB 1*/
-#container__general__card {
+#main__general__card {
 	padding-top: 40px;
 }
 .main__title__hotel,
@@ -268,7 +268,7 @@ ul > li.card__list {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--color--background);
-	// display: none;
+	display: none;
 }
 .services__image {
 	width: 268px;
@@ -308,13 +308,13 @@ ul > li.card__list {
 	margin-top: 20px;
 	cursor: pointer;
 }
-.display {
-	display: block;
-}
 #container__moreDetails {
-	margin-top: 20px;
 	display: none;
 }
+.show-details {
+	display: block !important;
+}
+
 #promotions {
 	margin-top: 20px;
 }
@@ -332,7 +332,7 @@ ul > li.card__list {
 	#tabs {
 		display: flex;
 	}
-	.tabs__container__button {
+	#tabs__container__button {
 		width: 12%;
 	}
 	.services__container__title {
@@ -350,7 +350,7 @@ ul > li.card__list {
 		padding: 20px;
 		margin-top: 0;
 	}
-	#section__details__dropDown {
+	.section__details__dropDown {
 		display: grid;
 		grid-template-columns: auto auto auto;
 		column-gap: 10px;
@@ -367,7 +367,7 @@ ul > li.card__list {
 	.article__services__hotel {
 		padding: 25px 268px 66px 32px;
 	}
-	#section__details__dropDown {
+	.section__details__dropDown {
 		display: grid;
 		grid-template-columns: auto auto auto;
 		column-gap: 43px;
