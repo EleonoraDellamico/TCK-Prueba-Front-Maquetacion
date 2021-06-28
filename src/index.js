@@ -14,13 +14,9 @@ import '../assets/stylesheets/src/application.scss';
 // };
 
 //TOGGLE TAB 2 COLLAPSE "MEJORA TU EXPERIENCIA"
-const navToggle = document.querySelector('.image-drop-down');
+const navToggle = document.querySelector('.services__container__title');
 const articleToggle = document.getElementsByClassName('container__dropDown__info');
-function rotate() {
-	if (navToggle === clicked) {
-		navToggle.style.msTransform = 'rotate(360deg)';
-	}
-}
+
 function Toggle() {
 	for (let index = 0; index < articleToggle.length; index++) {
 		const element = articleToggle[index];
@@ -29,7 +25,7 @@ function Toggle() {
 }
 
 navToggle.addEventListener('click', Toggle);
-rotate();
+
 //TOGGLE DETAILS TAB 2 "Olvidase de la rutina"
 const linkToggle = document.querySelector('.link__moreInformation');
 const detailsToggle = document.getElementById('container__moreDetailsCard1');
@@ -50,3 +46,14 @@ function ToggleMoreInformationSecondCard() {
 }
 
 linkToggleSecondCard.addEventListener('click', ToggleMoreInformationSecondCard);
+
+// const toggleArrow = document.getElementsByClassName('container__dropDown__image');
+
+// function RotateToggle() {
+// 	for (let index = 0; index < toggleArrow.length; index++) {
+// 		const element = toggleArrow[index];
+// 		element.classList.toggle('rotation');
+// 	}
+// }
+
+// toggleArrow.addEventListener('click', RotateToggle);

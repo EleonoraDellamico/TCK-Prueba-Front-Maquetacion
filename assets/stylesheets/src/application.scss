@@ -274,10 +274,9 @@ ul > li.card__list {
 	font-size: 24px;
 	line-height: 38px;
 	margin: 0px 12px 0 12px;
-	transition: all 0.4s ease 0s;
 }
-.colapse_title:hover {
-	color: var(--color--principal);
+.rotation {
+	transform: rotate(180deg);
 }
 .optional {
 	font-family: Roboto;
