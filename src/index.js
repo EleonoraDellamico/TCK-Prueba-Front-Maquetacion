@@ -1,4 +1,18 @@
 import '../assets/stylesheets/src/application.scss';
+//TAB1
+// const btn = document.querySelectorAll('.btn-radio');
+
+// btn.onclick = function() {
+// 	const selections = document.querySelectorAll('input[name="option"]');
+// 	let userSelection;
+// 	for (const selection of selections) {
+// 		if (selection.checked) {
+// 			window.location.replace('./services.html');
+// 			break;
+// 		}
+// 	}
+// };
+
 //TOGGLE TAB 2 COLLAPSE "MEJORA TU EXPERIENCIA"
 const navToggle = document.querySelector('.services__container__title');
 const articleToggle = document.getElementsByClassName('container__dropDown__info');

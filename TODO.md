@@ -28,8 +28,8 @@
 #### domingo por la mañana ### Tab1
 [X] maquetar desktop 768px
 [X] maquetar desktop 1200px
-[] insertar Javascript
-[] animaciones
+[X] insertar Javascript
+[x] animaciones
 
 
 #### domingo por la tarde ### Tab1
