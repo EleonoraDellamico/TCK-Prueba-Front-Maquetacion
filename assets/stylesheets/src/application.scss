@@ -46,7 +46,7 @@ header {
 	display: none;
 }
 #tabs__container__button {
-	width: 30%;
+	width: 60%;
 	display: flex;
 	justify-content: space-around;
 }
@@ -55,6 +55,7 @@ button {
 	border: none;
 	cursor: pointer;
 	color: var(--color--principal);
+	font-size: 16px;
 }
 a {
 	text-decoration: none;
@@ -190,13 +191,6 @@ ul > li.card__list {
 
 
 /* STYLE TAB2*/
-/* #section__services {
-	display: flex;
-	flex-direction: column;
-	background-color: var(--color--background2);
-	height: fit-content;
-	padding: 20px;
-} */
 .nav__bar__mobile {
 	display: flex;
 	width: 100%;
@@ -208,14 +202,7 @@ ul > li.card__list {
 	z-index: 999;
 }
 #btn-switch-tab1 {
-	border: 1px solid var(--color--secondary);
-	cursor: pointer;
-	font-family: var(--font--title--card);
-	color: var(--color--principal);
-	padding: 10px;
-	background: var(--color--background);
-	border-radius: 2px;
-	text-decoration: none;
+	color: var(--color--secondary);
 }
 
 #section__mejor__estancia,
@@ -244,7 +231,7 @@ ul > li.card__list {
 	cursor: pointer;
 }
 
-.service__title {
+.colapse_title {
 	color: var(--color--secondary);
 	font-family: var(--font--title--service);
 	font-style: normal;
@@ -265,6 +252,14 @@ ul > li.card__list {
 /*!*****************************************************!*\
 /*DESPLEGABLE MEJORA TU ESTANCIA */
 .container__dropDown__info {
+	border: 1px solid rgba(97, 100, 105, 0.2);
+	padding: 12px;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color--background);
+	display: none;
+}
+.container__article {
 	border: 1px solid rgba(97, 100, 105, 0.2);
 	padding: 12px;
 	display: flex;

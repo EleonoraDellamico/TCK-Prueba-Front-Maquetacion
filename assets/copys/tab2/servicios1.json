@@ -1,7 +1,7 @@
 {
 	"colapses": [
 		{
-			"colapse_tittle": "mejora tu estancia",
+			"colapse_title": "mejora tu estancia",
 			"objetos": [
 				{
 					"img_route": "../assets/imagen.png",
@@ -12,7 +12,7 @@
 			]
 		},
 		{
-			"colapse_tittle": "Servicios de habitaciones",
+			"colapse_title": "Servicios de habitaciones",
 			"objetos": [
 				{
 					"img_route": "../assets/imagen.png",
