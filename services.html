@@ -20,7 +20,7 @@
 
         <section id="section__services">
             <header id="tabs">
-                <div id="tabs__container__button">
+                <div class="tabs__container__button">
                     <button class="tabs__button"><a href="./index.html">Tab 1</a></button>
                     <button class="tabs__button"> Tab 2</button>
                 </div>
@@ -38,132 +38,154 @@
                     <h1 class="colapse_title">Mejora tu estancia</h1>
                     <p class="optional">Opcional</p>
                 </div>
-            </div>
-            <!--FIRST CARD-->
-            <div class="container__dropDown__info">
-                <div class="container__article">
-                    <div class="container__dropDown__image">
-                        <img class="services__image" src="./assets/images/img1.png" alt="Spa">
+
+                <!--FIRST CARD-->
+                <div class="container-eli">
+                <div class="container__dropDown__info">
+                    <div class="container__article">
+                        <div class="container__dropDown__image">
+                            <img class="services__image" src="./assets/images/img1.png" alt="Spa">
+                        </div>
+                        <div class="article__services__hotel">
+                            <h3 class="article__services__title card__title">Olvídese de la rutina</h3>
+                            <text class="text">Cras vehicula vestibulum dapibus. Pellentesque auctor dolor et purus
+                                facilisis
+                                maximus. Mauris eget urna luctus, imperdiet neque nec, aliquet lorem. </text>
+                            <p class="link__moreInformation">
+                                <link onClick="ToggleMoreInformation()" class="link__moreInformation">Más información y
+                                condiciones <img src="./assets/images/drop-down.png" alt="drop-down">
+                                </link>
+                            </p>
+                        </div>
                     </div>
-                    <article class="article__services__hotel">
-                        <h3 class="article__services__title card__title">Olvídese de la rutina</h3>
-                        <text class="text">Cras vehicula vestibulum dapibus. Pellentesque auctor dolor et purus
-                            facilisis
-                            maximus. Mauris eget urna luctus, imperdiet neque nec, aliquet lorem. </text>
-                        <p class="link__moreInformation">
-                            <link onClick="ToggleMoreInformation()" class="link__moreInformation">Más información y
-                            condiciones <img src="./assets/images/drop-down.png" alt="drop-down">
-                            </link>
-                        </p>
-                    </article>
-                </div>
-                <!--DROPDOWN FIRST CARD DETAILS-->
-                <div id="container__moreDetails">
-                        <text class="text">Incluye</text>
-                    <div class="section__details__dropDown" id="deatils__dropDown__card1">
-                        <article class="details">
-                            <img src="./assets/images/Disc.png" alt="dot">
-                            <text class="text">
-                                Baño javanés Mandi Susu tradicional: evocación de los baños que tomaban las
-                                princesas de
-                                las cortes y palacios de Java Central, en Indonesia, con antiguas recetas en las que
-                                se
-                                mezclaba
-                                la leche y las especias.</text></article>
-                        <article class="datails"><img src="./assets/images/Disc.png" alt="dot"><text class="text">
-                                Baño
-                                floral balinés: con
-                                aceite de almendra dulce y aromas de jazmín.</text></br> <img
-                                src="./assets/images/Disc.png" alt="dot"><text class="text">
-                                Baño oceánico: con sal
-                                marina y gajos de mandarina o lima. Baño de pies
-                                floral: </text></br><img src="./assets/images/Disc.png" alt="dot"> <text class="text">
-                                Baño
-                                aromático de pies, con
-                                pétalos y aromas.</text></article>
-                        <article class="details"><img src="./assets/images/Disc.png" alt="dot"><text class="text">
-                                Baño
-                                de vapor herbal:
-                                baño de vapor con hierbas del sudeste asiático. </text></br><img
-                                src="./assets/images/Disc.png" alt="dot"> <text class="text">Rain shower.</text>
-                        </article>
+                    <!--DROPDOWN FIRST CARD DETAILS-->
+                    <div id="container__moreDetails">
+                        <div id="include">
+                            <text class="text">Incluye</text>
+                        </div>
+                        <div class="section__details__dropDown" id="deatils__dropDown__card1">
+                            <div class="details">
+                                <ul>
+                                    <li class=text>
+                                        Baño javanés Mandi Susu tradicional: evocación de los baños que tomaban las
+                                        princesas de las cortes y palacios de Java Central, en Indonesia, con antiguas
+                                        recetas en las que se mezclaba la leche y las especias.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="datails">
+                                <ul>
+                                    <li class=text>Baño floral balinés: con aceite de almendra dulce y aromas de jazmín.
+                                    </li>
+                                    <li class=text>Baño oceánico: con sal marina y gajos de mandarina o lima. Baño de
+                                        pies floral:</li>
+                                    <li class=text>Baño aromático de pies, con pétalos y aromas.</li>
+                                </ul>
+                            </div>
+                            <div class="details">
+                                <ul>
+                                    <li class=text>Baño de vapor herbal: baño de vapor con hierbas del sudeste asiático.
+                                    </li>
+                                    <li class=text>Rain shower.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="promotions">
+                            <text class="text">Valores no acumulables a otras promociones
+                                similares</text>
+                        </div>
                     </div>
-                    <text class="text" id="promotions">Valores no acumulables a otras promociones similares</text>
                 </div>
                 <!--END DROPDOWN FIRST CARD-->
                 <!--SECOND CARD-->
-                <!-- <div class="container__dropDown__info"> -->
-                    <div class="container__article">
-                        <div class="container__dropDown__image">
-                            <img class="services__image" src="./assets/images/img2.png" alt="Spa">
-                        </div>
-                        <article class="article__services__hotel">
-                            <h3 class="article__services__title card__title">Experiencias y programas SPA con agua</h3>
-                            <text class="text">Las experiencias spa de agua tienen una presencia muy especial en SPA
-                                Sensations. No es
-                                extraño si consideramos que la mayor parte del planeta, así como del propio cuerpo
-                                humano,
-                                están compuestos de agua.
-                                El arte de recrear experiencias de agua en variaciones ilimitadas es la base de la
-                                propuesta
-                                de SPA Sensations a sus clientes, aportando el refinamiento al baño y a la hidratación
-                                en
-                                todas sus formas. Un mundo mágico de posibilidades, más allá de la terapia y del que
-                                ahora
-                                usted, también podrá disfrutar.</text>
-                            <p class="link__moreInformation">
-                                <link class="link__moreInformation">Más información y condiciones <img
-                                    src="./assets/images/drop-down.png" alt="drop-down">
-                                </link>
-                            </p>
-                        </article>
-                    </div>
-                    <!--DROPDOWN SECOND CARD DETAILS-->
-                    <div id="container__moreDetails">
-                        <text class="text">Incluye</text>
-                        <div class="section__details__dropDown" id="details__dropDown__card2">
-                            <article class="details">
-                                <img src="./assets/images/Disc.png" alt="dot">
-                                <text class="text">
-                                    Baño javanés Mandi Susu tradicional: evocación de los baños que tomaban las
-                                    princesas de
-                                    las cortes y palacios de Java Central, en Indonesia, con antiguas recetas en las que
-                                    se
-                                    mezclaba
-                                    la leche y las especias.</text></article>
-                            <article class="datails"><img src="./assets/images/Disc.png" alt="dot"><text class="text">
-                                    Baño
-                                    floral balinés: con
-                                    aceite de almendra dulce y aromas de jazmín.</text></br> <img
-                                    src="./assets/images/Disc.png" alt="dot"><text class="text">
-                                    Baño oceánico: con sal
-                                    marina y gajos de mandarina o lima. Baño de pies
-                                    floral: </text></br><img src="./assets/images/Disc.png" alt="dot"> <text
-                                    class="text">
-                                    Baño
-                                    aromático de pies, con
-                                    pétalos y aromas.</text></article>
-                            <article class="details"><img src="./assets/images/Disc.png" alt="dot"><text class="text">
-                                    Baño
-                                    de vapor herbal:
-                                    baño de vapor con hierbas del sudeste asiático. </text></br><img
-                                    src="./assets/images/Disc.png" alt="dot"> <text class="text">Rain shower.</text>
+                <div class="container__dropDown__info">
+                        <div class="container__article">
+                            <div class="container__dropDown__image">
+                                <img class="services__image" src="./assets/images/img2.png" alt="Spa">
+                            </div>
+                            <article class="article__services__hotel">
+                                <h3 class="article__services__title card__title">Experiencias y programas SPA con
+                                    agua
+                                </h3>
+                                <text class="text">Las experiencias spa de agua tienen una presencia muy especial en
+                                    SPA
+                                    Sensations. No es
+                                    extraño si consideramos que la mayor parte del planeta, así como del propio
+                                    cuerpo
+                                    humano,
+                                    están compuestos de agua.
+                                    El arte de recrear experiencias de agua en variaciones ilimitadas es la base de
+                                    la
+                                    propuesta
+                                    de SPA Sensations a sus clientes, aportando el refinamiento al baño y a la
+                                    hidratación
+                                    en
+                                    todas sus formas. Un mundo mágico de posibilidades, más allá de la terapia y del
+                                    que
+                                    ahora
+                                    usted, también podrá disfrutar.</text>
+                                <p class="link__moreInformation">
+                                    <link class="link__moreInformation">Más información y condiciones <img
+                                        src="./assets/images/drop-down.png" alt="drop-down">
+                                    </link>
+                                </p>
                             </article>
-                            <text class="text" id="promotions">Valores no acumulables a otras promociones similares</text>
+                        </div>
+                <!--DROPDOWN SECOND CARD DETAILS-->
+                <div id="container__moreDetails">
+                            <text class="text">Incluye</text>
+                            <div class="section__details__dropDown" id="details__dropDown__card2">
+                                <article class="details">
+                                    <img src="./assets/images/Disc.png" alt="dot">
+                                    <text class="text">
+                                        Baño javanés Mandi Susu tradicional: evocación de los baños que tomaban las
+                                        princesas de
+                                        las cortes y palacios de Java Central, en Indonesia, con antiguas recetas en
+                                        las
+                                        que
+                                        se
+                                        mezclaba
+                                        la leche y las especias.</text></article>
+                                <article class="datails"><img src="./assets/images/Disc.png" alt="dot"><text
+                                        class="text">
+                                        Baño
+                                        floral balinés: con
+                                        aceite de almendra dulce y aromas de jazmín.</text></br> <img
+                                        src="./assets/images/Disc.png" alt="dot"><text class="text">
+                                        Baño oceánico: con sal
+                                        marina y gajos de mandarina o lima. Baño de pies
+                                        floral: </text></br><img src="./assets/images/Disc.png" alt="dot"> <text
+                                        class="text">
+                                        Baño
+                                        aromático de pies, con
+                                        pétalos y aromas.</text></article>
+                                <article class="details"><img src="./assets/images/Disc.png" alt="dot"><text
+                                        class="text">
+                                        Baño
+                                        de vapor herbal:
+                                        baño de vapor con hierbas del sudeste asiático. </text></br><img
+                                        src="./assets/images/Disc.png" alt="dot"> <text class="text">Rain
+                                        shower.</text>
+                                </article>
+                                <text class="text" id="promotions">Valores no acumulables a otras promociones
+                                    similares</text>
+                            </div>
                         </div>
                     </div>
-                <!-- </div> -->
-            </div>
-            <!--END DROPDOWN SECOND CARD -->
-            <!--SERVICIO HABITACIÓN-->
-            <div class="drop-down" id="section__roomService">
-                <img class="service__website" src="./assets/images/exclusiveHotel.com.png" alt="Web site luxury Hotel">
-                <div class="services__container__title">
-                    <img class="image-drop-down" src="./assets/images/drop-down.png" alt="Drop-down">
-                    <h1 class="colapse_title">Servicio habitación</h1>
-                    <p class="optional">Opcional</p>
                 </div>
             </div>
+
+                <!--END DROPDOWN SECOND CARD -->
+                <!--SERVICIO HABITACIÓN-->
+                <div class="drop-down" id="section__roomService">
+                    <img class="service__website" src="./assets/images/exclusiveHotel.com.png"
+                        alt="Web site luxury Hotel">
+                    <div class="services__container__title">
+                        <img class="image-drop-down" src="./assets/images/drop-down.png" alt="Drop-down">
+                        <h1 class="colapse_title">Servicio habitación</h1>
+                        <p class="optional">Opcional</p>
+                    </div>
+                </div>
         </section>
         <script src="./dist/main.js"></script>
     </body>

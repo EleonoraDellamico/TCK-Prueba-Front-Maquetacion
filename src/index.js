@@ -1,5 +1,5 @@
 import '../assets/stylesheets/src/application.scss';
-
+//TOGGLE TAB 2 COLLAPSE
 const navToggle = document.querySelector('.services__container__title');
 const articleToggle = document.getElementsByClassName('container__dropDown__info');
 
