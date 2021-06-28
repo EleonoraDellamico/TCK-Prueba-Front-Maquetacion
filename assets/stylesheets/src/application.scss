@@ -31,9 +31,10 @@
 }
 #section__tabs,
 #section__services {
-	padding: 0 20px 0 20px;
-	height: fit-content;
+	padding: 0 20px;
+	height: 100vh;
 	background-color: var(--color--background2);
+	// background-color: red;
 }
 /*SECTION HEADER TAB 1*/
 header {
@@ -189,6 +190,13 @@ ul > li.card__list {
 
 
 /* STYLE TAB2*/
+/* #section__services {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color--background2);
+	height: fit-content;
+	padding: 20px;
+} */
 .nav__bar__mobile {
 	display: flex;
 	width: 100%;
@@ -209,13 +217,7 @@ ul > li.card__list {
 	border-radius: 2px;
 	text-decoration: none;
 }
-#section__services {
-	display: flex;
-	flex-direction: column;
-	background-color: var(--color--background2);
-	height: fit-content;
-	padding: 20px;
-}
+
 #section__mejor__estancia,
 #section__roomService {
 	background-color: var(--color--background);
@@ -231,10 +233,10 @@ ul > li.card__list {
 .services__container__title {
 	display: flex;
 	flex-direction: row;
-	height: 14vh;
+	height: fit-content;
 	align-items: baseline;
-	justify-content: space-around;
-	padding: 39px 5px 5px 0px;
+	justify-content: flex-start;
+	padding: 37px 6px 10px;
 }
 .services__container__title > img {
 	width: 16px;
@@ -335,10 +337,7 @@ ul > li.card__list {
 	#tabs__container__button {
 		width: 12%;
 	}
-	.services__container__title {
-		width: 46vw;
-		height: 10vh;
-	}
+
 	.container__article {
 		display: flex;
 	}
@@ -372,10 +371,7 @@ ul > li.card__list {
 		grid-template-columns: auto auto auto;
 		column-gap: 43px;
 	}
-	.services__container__title {
-		width: 30vw;
-		height: 8vh;
-	}
+
 	#section__servicio-habitación {
 		margin-top: 50px;
 		margin-bottom: 119px;
