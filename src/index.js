@@ -14,9 +14,13 @@ import '../assets/stylesheets/src/application.scss';
 // };
 
 //TOGGLE TAB 2 COLLAPSE "MEJORA TU EXPERIENCIA"
-const navToggle = document.querySelector('.services__container__title');
+const navToggle = document.querySelector('.image-drop-down');
 const articleToggle = document.getElementsByClassName('container__dropDown__info');
-
+function rotate() {
+	if (navToggle === clicked) {
+		navToggle.style.msTransform = 'rotate(360deg)';
+	}
+}
 function Toggle() {
 	for (let index = 0; index < articleToggle.length; index++) {
 		const element = articleToggle[index];
@@ -25,7 +29,7 @@ function Toggle() {
 }
 
 navToggle.addEventListener('click', Toggle);
-
+rotate();
 //TOGGLE DETAILS TAB 2 "Olvidase de la rutina"
 const linkToggle = document.querySelector('.link__moreInformation');
 const detailsToggle = document.getElementById('container__moreDetailsCard1');
@@ -38,7 +42,7 @@ linkToggle.addEventListener('click', ToggleMoreInformation);
 
 //TOGGLE DETAILS TAB2 "Experiencias y programas SPA con agua"
 
-const linkToggleSecondCard = document.getElementById('dropDonCard2');
+const linkToggleSecondCard = document.getElementById('dropDownCard2');
 const detailsToggleSecondCard = document.getElementById('container__moreDetailsCard2');
 
 function ToggleMoreInformationSecondCard() {
