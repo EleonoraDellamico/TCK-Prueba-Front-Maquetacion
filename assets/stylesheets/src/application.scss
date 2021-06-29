@@ -170,34 +170,6 @@ ul > li.card__list {
 	color: var(--color--active);
 }
 
-input[type='radio']:after {
-	width: 11px;
-	height: 11px;
-	border-radius: 15px;
-	top: -1px;
-	left: -1px;
-	position: relative;
-	background-color: var(--color--checked);
-	content: '';
-	display: inline-block;
-	visibility: visible;
-	border: 2px solid white;
-}
-
-input[type='radio']:checked:after {
-	width: 11px;
-	height: 11px;
-	border-radius: 15px;
-	top: -1px;
-	left: -1px;
-	position: relative;
-	background-color: #6dc138;
-	content: '';
-	display: inline-block;
-	visibility: visible;
-	border: 2px solid white;
-}
-
 /*!*****************************************************!*\
 /*!*****************************************************!*\
 /*MEDIA QUERIES TAB1*/

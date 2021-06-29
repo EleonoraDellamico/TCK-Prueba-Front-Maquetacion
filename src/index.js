@@ -1,18 +1,16 @@
 import '../assets/stylesheets/src/application.scss';
-//TAB1
-const btn = document.querySelectorAll('.btn-radio');
 
-btn.onclick = function() {
-	const selections = document.querySelectorAll('input[name="option"]');
-	let userSelection;
-	for (const selection of selections) {
-		if (selection.checked) {
-			window.location('./services.html');
-			break;
+const btnRadio = document.querySelectorAll('.btn-radio');
+console.log(btnRadio);
+
+btnRadio.onclick = function() {
+	const inputRadio = document.querySelectorAll('input[name="choice"]');
+	for (const inputRadio of inputRadios) {
+		if (inputRadio.checked) {
+			window.location.replace('www.google.com');
 		}
 	}
 };
-
 //TOGGLE TAB 2 COLLAPSE "MEJORA TU EXPERIENCIA"
 const navToggle = document.querySelector('.services__container__title');
 const articleToggle = document.getElementsByClassName('container__dropDown__info');
@@ -57,3 +55,4 @@ linkToggleSecondCard.addEventListener('click', ToggleMoreInformationSecondCard);
 // }
 
 // toggleArrow.addEventListener('click', RotateToggle);
+//TAB1

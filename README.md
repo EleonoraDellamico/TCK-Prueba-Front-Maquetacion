@@ -13,3 +13,14 @@ Doy por echo que:
 
 * En la pantalla tab2 aparecerá un btn para volver atrás que permiterá al usuario volver en la tab1 y elegir otra opción.
 
+#  TCK-Prueba-Front-Maquetacion
+ 
+### Description
+
+The website has two pages: the first one when you can select a type of hotel's services and the second one where you can find some promotions.
+This website has been done using HTML CSS and JS. Also, I have been using the WebPack, created in node. This Kit includes a templates engine, preprocessor SASS and a local server.
+
+#### First page, choose the service:
+
+
+
