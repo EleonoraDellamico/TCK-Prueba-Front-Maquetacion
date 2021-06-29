@@ -27,12 +27,15 @@
 	--color--border--card: #326c96;
 	--font--title--card: 'Roboto', sans-serif;
 	--font--title--service: 'Roboto Slab', serif;
+	--color--checked: #6dc138;
 }
+
 body {
 	padding: 0 20px;
 	width: 100%;
 	background-color: var(--color--background2);
 }
+
 /*SECTION HEADER TAB 1*/
 header {
 	background-color: var(--color--background);
@@ -44,11 +47,13 @@ header {
 	padding: 20px;
 	display: none;
 }
+
 .tabs__container__button {
 	width: 30%;
 	display: flex;
 	justify-content: space-around;
 }
+
 button {
 	background-color: transparent;
 	border: none;
@@ -59,9 +64,11 @@ button {
 	height: 26px;
 	transition: all 0.3s ease 0s;
 }
+
 button:hover {
-	box-shadow: inset 0 0 0 2px var(--color--principal);
+	border-bottom: 1px solid var(--color--active);
 }
+
 a {
 	text-decoration: none;
 }
@@ -69,6 +76,7 @@ a {
 .active {
 	color: var(--color--principal);
 }
+
 .disable {
 	color: var(---color--secondary);
 }
@@ -77,13 +85,16 @@ a {
 #main__general__card {
 	padding-top: 40px;
 }
+
 .main__title__hotel,
 span {
 	color: var(--color--principal);
 }
+
 .main__container__title {
 	text-align: center;
 }
+
 .main__title__hotel {
 	font-family: Roboto Slab;
 	font-style: normal;
@@ -92,15 +103,18 @@ span {
 	line-height: 30px;
 	text-transform: capitalize;
 }
+
 span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-weight: 700;
 }
+
 .main__title__hotel__rating {
 	margin-left: 10px;
 }
+
 /*CARD HOTEL TAB1*/
 .card__container {
 	background-color: var(--color--background);
@@ -116,6 +130,7 @@ span {
 	border-radius: 2px;
 	justify-content: space-between;
 }
+
 .card__title {
 	color: var(--color--principal);
 	text-align: center;
@@ -123,11 +138,13 @@ span {
 	line-height: 1rem;
 	font-family: var(--font--title--card);
 }
+
 hr {
 	color: var(--color--principal);
 	margin-top: 23px;
 	margin-bottom: 18px;
 }
+
 ul {
 	padding: 20px;
 }
@@ -153,6 +170,34 @@ ul > li.card__list {
 	color: var(--color--active);
 }
 
+input[type='radio']:after {
+	width: 11px;
+	height: 11px;
+	border-radius: 15px;
+	top: -1px;
+	left: -1px;
+	position: relative;
+	background-color: var(--color--checked);
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+	width: 11px;
+	height: 11px;
+	border-radius: 15px;
+	top: -1px;
+	left: -1px;
+	position: relative;
+	background-color: #6dc138;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid white;
+}
+
 /*!*****************************************************!*\
 /*!*****************************************************!*\
 /*MEDIA QUERIES TAB1*/
@@ -160,42 +205,51 @@ ul > li.card__list {
 	.main__title__hotel {
 		font-size: 24px;
 	}
+
 	#container__general__card {
 		display: grid;
 		column-gap: 15px;
 		grid-template-columns: repeat(2, auto);
 		grid-template-rows: repeat(2, auto);
 	}
+
 	.card__container {
 		height: 72vh;
 	}
 }
+
 @media screen and(min-width: 1280px) {
 	.main__title__hotel {
 		font-size: 24px;
 	}
+
 	#container__general__card {
 		display: grid;
 		grid-template-columns: repeat(12, auto);
 		column-gap: 20px;
 	}
+
 	#card__one {
 		grid-column-start: 1;
 		grid-column-end: 4;
 	}
+
 	#card__two {
 		grid-column-start: 4;
 		grid-column-end: 7;
 	}
+
 	#card__three {
 		grid-column-start: 7;
 		grid-column-end: 10;
 	}
+
 	#card__four {
 		grid-column-start: 10;
 		grid-column-end: 13;
 	}
 }
+
 /*!*****************************************************!*\
 /*!*****************************************************!*\
 
@@ -232,6 +286,7 @@ ul > li.card__list {
 	cursor: pointer;
 	outline: none;
 }
+
 .btn-mobile:hover {
 	background-color: var(--color--principal);
 	box-shadow: 0px 15px 20px rgba(85, 15, 6, 0.4);
@@ -247,11 +302,13 @@ ul > li.card__list {
 	margin-top: 70px;
 	border: 1px solid rgba(97, 100, 105, 0.2);
 }
+
 .service__website {
 	position: absolute;
 	top: 0;
 	right: 0px;
 }
+
 .services__container__title {
 	display: flex;
 	flex-direction: row;
@@ -260,6 +317,7 @@ ul > li.card__list {
 	justify-content: flex-start;
 	padding: 37px 6px 10px;
 }
+
 .services__container__title > img {
 	width: 16px;
 	height: 8px;
@@ -275,9 +333,11 @@ ul > li.card__list {
 	line-height: 38px;
 	margin: 0px 12px 0 12px;
 }
+
 .rotation {
 	transform: rotate(180deg);
 }
+
 .optional {
 	font-family: Roboto;
 	font-style: normal;
@@ -286,6 +346,7 @@ ul > li.card__list {
 	line-height: 20px;
 	color: var(--color--text);
 }
+
 /*!*****************************************************!*\
 /*DESPLEGABLE MEJORA TU ESTANCIA */
 .container__dropDown__info {
@@ -302,9 +363,11 @@ ul > li.card__list {
 	width: 268px;
 	height: 180px;
 }
+
 .article__services__title {
 	margin-bottom: 10px;
 }
+
 .article__services__hotel {
 	text-align: justify;
 	margin-top: 30px;
@@ -315,6 +378,7 @@ ul > li.card__list {
 	flex-direction: column;
 	align-items: center;
 }
+
 .text {
 	font-family: var(--font--title--card);
 	color: var(--color--text);
@@ -322,6 +386,7 @@ ul > li.card__list {
 	line-height: 20px;
 	text-align: justify;
 }
+
 .show {
 	display: flex;
 }
@@ -336,10 +401,12 @@ ul > li.card__list {
 	margin-top: 20px;
 	cursor: pointer;
 }
+
 .container__moreDetails {
 	display: none;
 	margin: 20px;
 }
+
 .show-details {
 	display: grid;
 }
@@ -351,6 +418,7 @@ ul > li.card__list {
 #section__roomService {
 	margin-top: 50px;
 }
+
 /*!*****************************************************!*\
 /*!*****************************************************!*\
 /*MEDIA QUERIES TAB2*/
@@ -358,15 +426,19 @@ ul > li.card__list {
 	.nav__bar__mobile {
 		display: none;
 	}
+
 	#tabs {
 		display: flex;
 	}
+
 	#tabs__container__button {
 		width: 12%;
 	}
+
 	.services__container__title {
 		padding: 37px 24px 10px;
 	}
+
 	.colapse_title {
 		margin: 0 16px 0 16px;
 	}
@@ -378,30 +450,37 @@ ul > li.card__list {
 	.article__services__title {
 		text-align: start;
 	}
+
 	.article__services__hotel {
 		text-align: justify;
 		padding: 20px;
 		margin-top: 0;
 	}
+
 	.section__details__dropDown {
 		display: grid;
 		grid-template-columns: auto auto auto;
 		column-gap: 10px;
 	}
 }
+
 @media only screen and (min-width: 1280px) {
 	.nav__bar__mobile {
 		display: none;
 	}
+
 	.services__container__title {
 		padding: 37px 24px 10px;
 	}
+
 	.colapse_title {
 		margin: 0 16px 0 16px;
 	}
+
 	.article__services__hotel {
 		padding: 25px 268px 66px 32px;
 	}
+
 	.section__details__dropDown {
 		display: grid;
 		grid-template-columns: auto auto auto;
@@ -412,6 +491,7 @@ ul > li.card__list {
 		margin-top: 50px;
 		margin-bottom: 119px;
 	}
+
 	.container__dropDown__info {
 		margin-bottom: 32px;
 	}
