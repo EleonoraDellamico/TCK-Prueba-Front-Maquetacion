@@ -1,16 +1,28 @@
 import '../assets/stylesheets/src/application.scss';
+//TAB 1
+//SWITCH PAGE
+// const btnRadio = document.getElementsByClassName('btn-radio');
+// console.log(btnRadio);
 
-const btnRadio = document.querySelectorAll('.btn-radio');
-console.log(btnRadio);
+// function SwitchPage() {
+// 	for (let index = 0; index < btnRadio.length; index++) {
+// 		const element = btnRadio[index];
+// 		element.location.href = './services.html';
+// 	}
+// }
 
-btnRadio.onclick = function() {
-	const inputRadio = document.querySelectorAll('input[name="choice"]');
-	for (const inputRadio of inputRadios) {
-		if (inputRadio.checked) {
-			window.location.replace('www.google.com');
-		}
-	}
-};
+// btnRadio.addEventListener('click', SwitchPage);
+
+//CREATE AN ALERT
+// const disableBtn = document.querySelector('.tabs__button--disable');
+// function Alert() {
+// 	if (disableBtn.clicked) {
+// 		alert('Tienes que elegir una opción');
+// 	}
+// }
+
+// disableBtn.addEventListener('click', Alert);
+
 //TOGGLE TAB 2 COLLAPSE "MEJORA TU EXPERIENCIA"
 const navToggle = document.querySelector('.services__container__title');
 const articleToggle = document.getElementsByClassName('container__dropDown__info');
@@ -55,4 +67,3 @@ linkToggleSecondCard.addEventListener('click', ToggleMoreInformationSecondCard);
 // }
 
 // toggleArrow.addEventListener('click', RotateToggle);
-//TAB1

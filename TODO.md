@@ -11,6 +11,7 @@
 [X] spike webpack 1h 
 * https://www.youtube.com/watch?v=ansUGkcrhwY&t=2465s&ab_channel=midudev
 * https://github.com/webpack/webpack#install
+* Curso Udemy Fernando Herrera
 [X] maquetar mobile 360px
 [X] spike 10min import js
 * https://css-tricks.com/getting-javascript-to-talk-to-css-and-sass/
@@ -35,3 +36,5 @@
 #### domingo por la tarde ### Tab1
 -[] web dinamica
 
+#### Lunes ### Tab1 Tab2
+[X]revisar
