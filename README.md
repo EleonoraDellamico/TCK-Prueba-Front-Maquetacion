@@ -37,7 +37,7 @@ npm run dev
 
 ## I would like to 
 
-* to implement the javascript function for switching from the first page to the second one and creating an alert when the user don't select any options. 
+* to implement the javascript function for switching from the first page to the second one and creating an alert when the users don't select any options. 
 * to figure out the js function for the rotating arrow. 
 *  to implement grid in the entire project for a more fluid mediaqueries.
 * to use sass and the different partials and finish the dynamic part. 
